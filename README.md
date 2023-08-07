@@ -1,7 +1,7 @@
 # - File Rename Bot
 
 <p> align="center">
-  <ahref="https://github.com/ToxicBois44/FilesrenameBot/stargazers">
+  <a> href="https://github.com/ToxicBois44/FilesrenameBot/stargazers">
     <img src="https://telegra.ph/file/b8dd91c84904be65653ce.png">
   </a>
   
