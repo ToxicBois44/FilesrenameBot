@@ -1,17 +1,3 @@
-# - File Rename Bot
-
-<p> align="center">
-  <a>
-    <img src="https://telegra.ph/file/b8dd91c84904be65653ce.png">
-    
-  </a>
-  
-  <a> href="https://github.com/ToxicBois44/FilesrenameBot/fork">
-    <img src="https://img.shields.io/github.com/ToxicBois44/FilesrenameBot?label=Fork&style=social">
-
-  </a>  
-</p>
-
 ->**An Multi purpose Bot Which Can :-**
 
 * ✅Rename Telegram Files Into Any Formats <pre>(Like Renaming Video Files Into Audio File Or Images Into Stickers, Can Be Rename Any File To Most Of The Available Extensions 🤔 I gus) </pre>
