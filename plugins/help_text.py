@@ -49,7 +49,7 @@ async def help_user(bot, update):
             await update.reply_text(
                 text="**Due To The Huge Traffic Only Channel Members Can Use This Bot Means You Need To Join The Below Mentioned Channel Before Using Me! **",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="✨ 𝙹𝚘𝚒𝚗 𝙼𝚢 𝚄𝚙𝚍𝚊𝚝𝚎𝚜 𝙲𝚑𝚊𝚗𝚗𝚎𝚕✨", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -90,7 +90,7 @@ async def start_me(bot, update):
             await update.reply_text(
                 text="**Due To The Huge Traffic Only Channel Members Can Use This Bot Means You Need To Join The Below Mentioned Channel Before Using Me! **",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="✨ 𝙹𝚘𝚒𝚗 𝙼𝚢 𝚄𝚙𝚍𝚊𝚝𝚎𝚜 𝙲𝚑𝚊𝚗𝚗𝚎𝚕✨", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -102,12 +102,12 @@ async def start_me(bot, update):
                         InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('Support Channel', url='https://t.me/Mai_bOTs'),
-                    InlineKeyboardButton('Feedback', url='https://t.me/No_OnE_Kn0wS_Me')
+                    InlineKeyboardButton('⚡️𝓢𝓾𝓹𝓹𝓸𝓻𝓽 𝓒𝓱𝓪𝓷𝓷𝓮𝓵⚡️', url='https://t.me/Sfptelegram'),
+                    InlineKeyboardButton('🌼 𝓒𝓲𝓷𝓮 𝓕𝓵𝓲𝔁 🌼', url='https://t.me/Cineflixlk')
                 ],
                 [
-                    InlineKeyboardButton('Other Bots', url='https://t.me/Mai_bOTs/17'),
-                    InlineKeyboardButton('Source', url='https://github.com/No-OnE-Kn0wS-Me/FileRenameBot')
+                    InlineKeyboardButton('🌻 𝓒𝓸𝓷𝓽𝓪𝓬𝓽 🌻', url='https://t.me/Jonathanlk'),
+                    InlineKeyboardButton('𝓞𝔀𝓷𝓮𝓻 💨', url='https://t.me/Jonathanlk')
                 ]
             ]
         ),
@@ -189,15 +189,15 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('📝Rename', callback_data = "rnme"),
-                    InlineKeyboardButton('📂File To Video', callback_data = "f2v")
+                    InlineKeyboardButton('📝​🇷​​🇪​​🇳​​🇦​​🇲​​🇪​', callback_data = "rnme"),
+                    InlineKeyboardButton('📂ꜰɪʟᴇ ​🇹​​🇴​ ​🇻​​🇮​​🇩​​🇪​​🇴​', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🎞️Custom Thumbnail', callback_data = "cthumb"),
-                    InlineKeyboardButton('📑Custom Caption', callback_data = "ccaption")
+                    InlineKeyboardButton('🎞️ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ', callback_data = "cthumb"),
+                    InlineKeyboardButton('📑ᴄᴜꜱᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ', callback_data = "ccaption")
                 ],
                 [
-                    InlineKeyboardButton('💬About', callback_data = "about")
+                    InlineKeyboardButton('💬ᴀʙᴏᴜᴛ', callback_data = "about")
                 ]
             ]
         )
