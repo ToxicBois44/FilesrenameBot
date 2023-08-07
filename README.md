@@ -2,8 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/ToxicBois44/FilesrenameBot/stargazers">
-    <img src="https://img.shields.io/github.com/ToxicBois44/FilesrenameBot?style=social">
-
+    <img src="https://telegra.ph/file/b8dd91c84904be65653ce.png">
   </a>
   
   <a href="https://github.com/ToxicBois44/FilesrenameBot/fork">
