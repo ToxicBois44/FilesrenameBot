@@ -47,9 +47,9 @@ async def help_user(bot, update):
                return
         except UserNotParticipant:
             await update.reply_text(
-                text="**Due To The Huge Traffic Only Channel Members Can Use This Bot Means You Need To Join The Below Mentioned Channel Before Using Me! **",
+                text="**Due To The Huge Traffic Only Channel Members Can Use This Bot Means You Need To Join The Below Mentioned Channel Before Using Me ❗️ **",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="⚡️𝓙𝓸𝓲𝓷 𝓜𝔂 𝓤𝓹𝓭𝓪𝓽𝓮𝓼 𝓒𝓱𝓪𝓷𝓷𝓮𝓵⚡️", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -60,15 +60,15 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('📝Rename', callback_data = "rnme"),
-                    InlineKeyboardButton('📂File To Video', callback_data = "f2v")
+                    InlineKeyboardButton('📝ʀᴇɴᴀᴍᴇ', callback_data = "rnme"),
+                    InlineKeyboardButton('📂​🇫ɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🎞️Custom Thumbnail', callback_data = "cthumb"),
-                    InlineKeyboardButton('📑Custom Caption', callback_data = "ccaption")
+                    InlineKeyboardButton('🎞️​🇨​​🇺​​🇸​​🇹​​🇴​​🇲​ ​🇹​​🇭​​🇺​​🇲​​🇧​​🇳​​🇦​​🇮​​🇱​', callback_data = "cthumb"),
+                    InlineKeyboardButton('📑ᴄᴜ​​🇸ᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ', callback_data = "ccaption")
                 ],
                 [
-                    InlineKeyboardButton('💬About', callback_data = "about")
+                    InlineKeyboardButton('💬​🇦​​🇧​​🇴​​🇺​​🇹​', callback_data = "about")
                 ]
             ]
         )
@@ -84,13 +84,13 @@ async def start_me(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry,You've Been Flooding Me So My Owner Removed You From Using Me If You Think It's An Error Contact : @Faris_TG")
+               await update.reply_text("​🇸​​🇴​​🇷​​🇷​​🇾​,​🇾​​🇴​​🇺​❜​🇻​​🇪​ ​🇧​​🇪​​🇪​​🇳​ ​🇫​​🇱​​🇴​​🇴​​🇩​​🇮​​🇳​​🇬​ ​🇲​​🇪​ ​🇸​​🇴​ ​🇲​​🇾​ ​🇴​​🇼​​🇳​​🇪​​🇷​ ​🇷​​🇪​​🇲​​🇴​​🇻​​🇪​​🇩​ ​🇾​​🇴​​🇺​ ​🇫​​🇷​​🇴​​🇲​ ​🇺​​🇸​​🇮​​🇳​​🇬​ ​🇲​​🇪​ ​🇮​​🇫​ ​🇾​​🇴​​🇺​ ​🇹​​🇭​​🇮​​🇳​​🇰​ ​🇮​​🇹​❜​🇸​ ​🇦​​🇳​ ​🇪​​🇷​​🇷​​🇴​​🇷​ ​🇨​​🇴​​🇳​​🇹​​🇦​​🇨​​🇹​ : @Jonathanlk")
                return
         except UserNotParticipant:
             await update.reply_text(
-                text="**Due To The Huge Traffic Only Channel Members Can Use This Bot Means You Need To Join The Below Mentioned Channel Before Using Me! **",
+                text="**​🇩​​🇺​​🇪​ ​🇹​​🇴​ ​🇹​​🇭​​🇪​ ​🇭​​🇺​​🇬​​🇪​ ​🇹​​🇷​​🇦​​🇫​​🇫​​🇮​​🇨​ ​🇴​​🇳​​🇱​​🇾​ ​🇨​​🇭​​🇦​​🇳​​🇳​​🇪​​🇱​ ​🇲​​🇪​​🇲​​🇧​​🇪​​🇷​​🇸​ ​🇨​​🇦​​🇳​ ​🇺​​🇸​​🇪​ ​🇹​​🇭​​🇮​​🇸​ ​🇧​​🇴​​🇹​ ​🇲​​🇪​​🇦​​🇳​​🇸​ ​🇾​​🇴​​🇺​ ​🇳​​🇪​​🇪​​🇩​ ​🇹​​🇴​ ​🇯​​🇴​​🇮​​🇳​ ​🇹​​🇭​​🇪​ ​🇧​​🇪​​🇱​​🇴​​🇼​ ​🇲​​🇪​​🇳​​🇹​​🇮​​🇴​​🇳​​🇪​​🇩​ ​🇨​​🇭​​🇦​​🇳​​🇳​​🇪​​🇱​ ​🇧​​🇪​​🇫​​🇴​​🇷​​🇪​ ​🇺​​🇸​​🇮​​🇳​​🇬​ ​🇲​​🇪​ ❗️ **",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="⚡️𝓙𝓸𝓲𝓷 𝓜𝔂 𝓤𝓹𝓭𝓪𝓽𝓮𝓼 𝓒𝓱𝓪𝓷𝓷𝓮𝓵⚡️", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -102,12 +102,12 @@ async def start_me(bot, update):
                         InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('⚡️𝓢𝓾𝓹𝓹𝓸𝓻𝓽 𝓒𝓱𝓪𝓷𝓷𝓮𝓵⚡️', url='https://t.me/Mai_bOTs'),
-                    InlineKeyboardButton('Feedback', url='https://t.me/No_OnE_Kn0wS_Me')
+                    InlineKeyboardButton('⚡️𝓢𝓾𝓹𝓹𝓸𝓻𝓽 𝓒𝓱𝓪𝓷𝓷𝓮𝓵⚡️', url='https://t.me/cryptoupdatezx'),
+                    InlineKeyboardButton('𝘾𝙞𝙣𝙚 𝙁𝙡𝙞𝙭 🇱🇰', url='https://t.me/Cineflixlk')
                 ],
                 [
-                    InlineKeyboardButton('Other Bots', url='https://t.me/Mai_bOTs/17'),
-                    InlineKeyboardButton('Source', url='https://github.com/No-OnE-Kn0wS-Me/FileRenameBot')
+                    InlineKeyboardButton('📊 𝘾𝙧𝙮𝙥𝙩𝙤 𝙐𝙥𝙙𝙖𝙩𝙚 📊', url='https://t.me/cryptoupdatezx'),
+                    InlineKeyboardButton('🔰 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 🔰', url='https://t.me/Jonathanlk')
                 ]
             ]
         ),
@@ -190,11 +190,11 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton('📝ʀᴇɴᴀᴍᴇ', callback_data = "rnme"),
-                    InlineKeyboardButton('📂ꜰɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ', callback_data = "f2v")
+                    InlineKeyboardButton('📂​🇫ɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🎞️ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ', callback_data = "cthumb"),
-                    InlineKeyboardButton('📑ᴄᴜꜱᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ', callback_data = "ccaption")
+                    InlineKeyboardButton('🎞️​🇨​​🇺​​🇸​​🇹​​🇴​​🇲​ ​🇹​​🇭​​🇺​​🇲​​🇧​​🇳​​🇦​​🇮​​🇱', callback_data = "cthumb"),
+                    InlineKeyboardButton('📑ᴄᴜ​​🇸ᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ', callback_data = "ccaption")
                 ],
                 [
                     InlineKeyboardButton('💬ᴀʙᴏᴜᴛ', callback_data = "about")
@@ -208,9 +208,9 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                 caption = await get_caption(query.from_user.id)
                 c_text = caption.caption
              except:
-                c_text = "Sorry but you haven't added any caption yet please set your caption through /scaption command" 
+                c_text = "​🇸​​🇴​​🇷​​🇷​​🇾​ ​🇧​​🇺​​🇹​ ​🇾​​🇴​​🇺​ ​🇭​​🇦​​🇻​​🇪​​🇳​❜​🇹​ ​🇦​​🇩​​🇩​​🇪​​🇩​ ​🇦​​🇳​​🇾​ ​🇨​​🇦​​🇵​​🇹​​🇮​​🇴​​🇳​ ​🇾​​🇪​​🇹​ ​🇵​​🇱​​🇪​​🇦​​🇸​​🇪​ ​🇸​​🇪​​🇹​ ​🇾​​🇴​​🇺​​🇷​ ​🇨​​🇦​​🇵​​🇹​​🇮​​🇴​​🇳​ ​🇹​​🇭​​🇷​​🇴​​🇺​​🇬​​🇭​ /scaption command" 
              await query.message.edit(
-                  text=f"<b>Your Custom Caption:</b> \n\n{c_text} ",
+                  text=f"<b>🇾​​🇴​​🇺​​🇷​ ​🇨​​🇺​​🇸​​🇹​​🇴​​🇲​ ​🇨​​🇦​​🇵​​🇹​​🇮​​🇴​​🇳​ :</b> \n\n{c_text} ",
                   parse_mode="html", 
                   disable_web_page_preview=True, 
                   reply_markup=InlineKeyboardMarkup(
