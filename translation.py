@@ -6,7 +6,7 @@ class Translation(object):
 
     BANNED_USER_TEXT = "Sorry!! But Mai Owner As Banned You From Using This Service. That Means You Can't Run Meh Now! \n \n Contact : @Jonathanlk For more Details.. " 
     DOWNLOAD_START = "<b>Downloading To My server !! Pls Wait</b>"
-    UPLOAD_START = "<b>Downloading Completed Now I'm Uploading Into TeleGram</b>"
+    UPLOAD_START = "<b>Downloading Completed Now I'm Uploading Into Telegram</b>"
     AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>Thank you for Using Me Support Our Channel @sfptelegram ❤️</b>"
     SAVED_CUSTOM_THUMB_NAIL = "<b>thumbnail Saved ✅ This Is Permanent Until</b> /delthumb ❤"
     DEL_ETED_CUSTOM_THUMB_NAIL = "thumbnail cleared succesfully🤦"
